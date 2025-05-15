@@ -2,8 +2,8 @@
 
 .main-thre{
     background: url('../images/background/playbackgr.jpg');
-    width: 375px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .counters-glas{
