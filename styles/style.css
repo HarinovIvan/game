@@ -1,12 +1,12 @@
 .main{
-    width: 100%;
-    height: auto;
+    width: 375px;
+    height: 700px;
 }
 
 
 .main-background-img{
-    width: 375px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .img-logo{
