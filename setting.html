@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/setting.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-four">
+        <div class="counters-glas">
+            <div class="counter-stars">
+                <img class="image-stars" src="./images/icons/logo.svg" alt="logo">
+                <div class="counter-star">
+                    <p class="count-star">0</p>
+                </div>
+            </div>
+            <div class="counter-lighings">
+                <img class="image-lighings" src="./images/icons/logo2.svg" alt="logo">
+                <div class="counter-lighing">
+                    <p class="count-lighing">5</p>
+                </div>
+            </div>
+        </div>
+        <section class="section">
+            <h2 class="section-title">Настройки</h2>
+            <article class="cards">
+                <img class="star-one" src="./images/icons/star.svg" alt="logo">
+                <img class="star-two" src="./images/icons/star.svg" alt="logo">
+                <img class="star-three" src="./images/icons/star.svg" alt="logo">
+                <div class="icons">
+                    <div class="iconso">
+                        <img class="icon" src="./images/icons/zvuk.svg" alt="logo">
+                        <div class="volume-control">
+                            <button id="volume-toggle" class="volume-toggle">🔈</button>
+                            <input type="range" id="volume-slider" class="volume-slider" min="0" max="100" value="50">
+                        </div>
+                    </div>
+                    <div class="iconso">
+                        <a href="./questions.html"><img class="icon" src="./images/icons/voprosi.svg" alt="logo"></a>
+                        <p class="text">Вопросы</p> 
+                    </div>
+                    <div class="iconso">
+                        <a href="./moredetails.html"><img class="icon" src="./images/icons/podrobnee.svg" alt="logo"></a>
+                        <p class="text">Подробнее</p>
+                    </div>
+                    <div class="iconso">
+                        <a href=""><img class="icon" src="./images/icons/leaders.svg" alt="logo"></a>
+                        <p class="text">Лидеры</p>
+                    </div>
+                </div>
+            </article>
+            <img class="star-four" src="./images/icons/star.svg" alt="logo">
+            <img class="star-five" src="./images/icons/star.svg" alt="logo">
+            <article class="exi">
+                <button onclick="history.go(-1)" class="bas" href=""><img src="./images/icons/bach.svg" alt="logo"></button>
+                <div class="ex">
+                    <p class="text">Выход</p>
+                    <button id="exit"><img src="./images/icons/exit.svg" alt="logo"></button>
+                </div>
+            </article>
+            <div id="aaa" class="modalBackground hidden">
+                <div class="modalActive">
+                    <div class="modalClose">
+                        <p class="teext">Вы точно хотите выйти?</p>
+                    </div>
+                </div>
+                <div class="modalWindow">
+                    <a class="yes" href="./home.html">Да</a>
+                    <button class="no">Нет</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./script.js" ></script>
+</body>
+</html>

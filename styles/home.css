@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+
+
+.main-two{
+    background: url('../images/background/backHome.jpg');
+    width: 375px;
+    height: 700px;
+}
+
+.counters-glas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 11px 0 30px;
+}
+
+.counter-stars{
+    display: flex;
+    
+}
+
+
+.image-stars{
+    position: relative;
+    top: 16px;
+    width: 41px;
+    height: 41px;
+    z-index: 3;
+}
+
+
+.counter-star{
+    background-color: white;
+    width: 80.1px;
+    height: 27.94px;
+    margin: 23px 0 0 -23.9px;
+    border-radius: 40px;
+}
+
+.counter-stars:focus{
+    .fern{
+        position: absolute;
+        top: 61px;
+        left: 43px;
+        background-color: white;
+        padding: 13.5px 17px;
+        max-width: 217px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .fern-text{
+        font-family: "Jura", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .fern-text::after{
+        content: "Звездоксы – игровая валюта за успехи! Меняйте на мерч и реальные призы (сертификаты Око, Озон и др.). Больше Звездоксов – круче награды!";
+    }
+}
+
+
+
+
+.counter-lighings{
+    display: flex;
+}
+
+.image-lighings{
+    position: relative;
+    z-index: 3;
+    width: 35px;
+    height: 40px;
+    top: 15px;
+}
+
+.counter-lighing{
+    background-color: white;
+    width: 80.1px;
+    height: 27.94px;
+    margin: 23px 0 0 -23.9px;
+    border-radius: 40px;
+}
+
+.count-star{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.count-lighing{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageTitle{
+    padding: 0 0 0 31px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.play{
+    padding: 180px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.backOrSet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings{
+    width: 97px;
+    height: 97px;
+}
+
+.back{
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+    width: 97px;
+    height: 97px;
+    padding: 10px 0 0 0 ;
+}

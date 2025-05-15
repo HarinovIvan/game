@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+.main-four{
+    background: url('../images/background/backgroundSetting.jpg');
+    width: 375px;
+    height: 700px;
+}
+
+.counters-glas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 11px 0 30px;
+}
+
+.counter-stars{
+    display: flex;
+    
+}
+
+.image-stars{
+    position: relative;
+    top: 10px;
+    z-index: 3;
+}
+
+
+.counter-star{
+    background-color: white;
+    width: 80.1px;
+    height: 27.94px;
+    margin: 23px 0 0 -23.9px;
+    border-radius: 40px;
+}
+
+.counter-lighings{
+    display: flex;
+}
+
+.image-lighings{
+    position: relative;
+    top: 10px;
+    z-index: 3;
+}
+
+.counter-lighing{
+    background-color: white;
+    width: 80.1px;
+    height: 27.94px;
+    margin: 23px 0 0 -23.9px;
+    border-radius: 40px;
+}
+
+.count-star{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.count-lighing{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    background-color: rgba(91, 86, 86, 0.7);
+    border-radius: 60px;
+    margin: 70px 0 50px 0;
+    padding: 0 0 40px 0;
+}
+
+.section{
+    padding: 0 21px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    position: relative;
+    bottom: 40px ;
+}
+
+.icon{
+    width: 54px;
+    height: 54px;
+    
+}
+
+
+
+.section-title{
+    color: black;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 0 0;
+}
+
+.star-one{
+    position: relative;
+    bottom: 35px;
+    left: 230px;
+    width: 69px;
+    height: 69px;
+}
+
+.star-two{
+    position: relative;
+    bottom: 10px;
+    left: 210px;
+    width: 42px;
+    height: 42px;
+}
+
+.star-three{
+    position: relative;
+    top: 15px;
+    left: 190px;
+    width: 42px;
+    height: 42px;
+}
+
+.icons{
+    padding: 0 0 0 27px;
+}
+
+.text{
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -1.1;
+    opacity: 1;
+}
+
+.iconso{
+    display: flex;
+    gap: 9px;
+}
+
+.star-four{
+    width: 69px;
+    height: 69px;
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+
+}
+
+.star-five{
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+    width: 42px;
+    height: 42px;
+}
+
+.exi{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.valid{
+    width: 100px;
+    height: 38px;
+    background-color: #3D3A3A;
+    opacity: 0.9px;
+    border-radius: 60px;
+    margin: 5px 0 0 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-img{
+    width: 54px;
+    height: 54px;
+}
+
+.icons-title{
+    font-family: "Jura", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.icons-text{
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    max-width: 296px;
+}
+
+.textu{
+     padding: 10px 50px;
+    
+}
+
+
+.qr-ic{
+    width: 191px;
+    height: 248px;
+    border-radius: 20px;
+    margin: 20px 69px 19px 69px;
+}
+
+.opisanie{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 24px;
+    position: relative;
+    bottom: 40px;
+}
+
+.opisanie-title{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding: 25px 0 0 30px;
+}
+
+
+.textu-text{
+    max-width: 294px;
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.textus{
+    padding: 7px 19px 0px 19px;
+    position: relative;
+    bottom: 40px;
+}
+
+.energy{
+    display: flex;
+    padding: 0 0 0 24px;
+    position: relative;
+    bottom: 40px;
+}
+
+.textusq{
+    padding: 7px 19px 0px 19px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.modalBackground{
+    background-color: #606060;
+    border-radius: 30px;
+    position: relative;
+    bottom: 430px;
+    left: 35px;
+    max-width: 259px;
+    z-index: 4;
+}
+
+.teext{
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+    padding: 28px 0 0 0;
+    text-align: center;
+}
+
+.yes{
+    background-color: red;
+    padding: 6.5px 27.5px;
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.ex{
+    display: flex;
+    
+}
+
+.no{
+    background-color: green;
+    padding: 6.5px 27.5px;
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 30px;
+    margin: 0 0 0 35px;
+}
+
+.modalWindow{
+    display: flex;
+    padding: 20px 20px 40px 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.reg{
+    background-color: #4D4D4D;
+    border-radius: 30px;
+    width: 273px;
+    
+    margin: 0 30px;
+}
+
+.reg-title{
+    font-family: "Jura", sans-serif;
+    color: #727272;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 0 0 0;
+    text-align: center;
+}
+
+.in1-title{
+    color: #3E3D3D;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 0 0 0;
+    text-align: center;
+}
+
+#inputOne{
+    background-color: #565656;
+    border-radius: 30px;
+    padding: 10px 65px 11px 15px;
+    margin: 0 0 0 13px;
+}
+
+#inputOne::placeholder{
+    color: #7E7E7E;
+    font-weight: 700;
+    font-family: "Jura", sans-serif;
+    font-size: 13px;
+}
+
+
+.in2-title{
+    color: #3E3D3D;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 0 0 13px;
+    
+}
+
+#inputTwo{
+    background-color: #565656;
+    border-radius: 30px;
+    padding: 10px 65px 11px 15px;
+    margin: 0 0 0 13px;
+}
+
+#inputTwo::placeholder{
+    color: #7E7E7E;
+    font-weight: 700;
+    font-family: "Jura", sans-serif;
+    font-size: 13px;
+}
+
+.btm{
+    padding: 6px 48px;
+    background-color: #676565;
+    border-radius: 50px;
+    margin: 21px 64.5px 20px 64.5px;
+    color: #7E7E7E;
+    font-weight: 700;
+    font-family: "Jura", sans-serif;
+    font-size: 16px;
+}

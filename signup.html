@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-four">
+        <div class="counters-glas">
+            <div class="counter-stars">
+                <img class="image-stars" src="./images/icons/logo.svg" alt="logo">
+                <div class="counter-star">
+                    <p class="count-star">0</p>
+                </div>
+            </div>
+            <div class="counter-lighings">
+                <img class="image-lighings" src="./images/icons/logo2.svg" alt="logo">
+                <div class="counter-lighing">
+                    <p class="count-lighing">5</p>
+                </div>
+            </div>
+        </div>
+        <section class="section">
+            <article class="cards">
+                <img class="star-one" src="./images/icons/star.svg" alt="logo">
+                <img class="star-two" src="./images/icons/star.svg" alt="logo">
+                <img class="star-three" src="./images/icons/star.svg" alt="logo">
+                <div class="icons">
+                    <img class="icons-img" src="./images/icons/signup.svg" alt="logo">
+                    <h2 class="icons-title">Регистрация</h2>
+                </div>
+                <div class="reg">
+                    <h2 class="reg-title">Войти/Зарегестрироваться</h2>
+                    <form id="form" class="forms">
+                        <div class="in1">
+                            <h2 class="in1-title">Адрес эл.почты/номер телефона</h2>
+                            <label for="inputOne"></label>
+                            <input id="inputOne" type="text" placeholder="Введите...">
+                        </div>
+                        <div class="in2">
+                            <h2 class="in2-title">Поле для пороля</h2>
+                            <label for="inputTwo"></label>
+                            <input id="inputTwo" type="text" placeholder="Введите...">
+                        </div>
+                        <button class="btm" type="submit">Войти</button>
+                    </form>
+                </div>
+            </article>
+            <img class="star-four" src="./images/icons/star.svg" alt="logo">
+            <img class="star-five" src="./images/icons/star.svg" alt="logo">
+            <article class="exi">
+                <button onclick="history.go(-1)" class="bas" href=""><img src="./images/icons/bach.svg" alt="logo"></button>
+                <div class="ex">
+                    <p class="text">Выход</p>
+                    <button id="exit"><img src="./images/icons/exit.svg" alt="logo"></button>
+                </div>
+            </article>
+            <div id="aaa" class="modalBackground hidden">
+                <div class="modalActive">
+                    <div class="modalClose">
+                        <p class="teext">Вы точно хотите выйти?</p>
+                    </div>
+                </div>
+                <div class="modalWindow">
+                    <a class="yes" href="./home.html">Да</a>
+                    <button class="no">Нет</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="./script4.js" ></script>
+</body>
+</html>
