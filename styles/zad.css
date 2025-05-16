@@ -1,7 +1,7 @@
 .main-two{
     background: url('../images/background/zad-back.jpg');
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 700px;
 }
 
 
@@ -109,4 +109,56 @@
 
 .imageTitle{
     padding: 0 0 0 31px;
+}
+
+.zad-title{
+    background-color: white;
+    border-radius: 30px;
+    padding: 21px 46px;
+    max-width: 338px;
+    margin: 27px auto;
+}
+
+.zad-tit{
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #877CB8;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 334px;
+    margin: 11px auto;
+}
+
+.tts-s{
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 22px 0 0 20px;
+}
+
+.qwe{
+    width: 93px;
+    height: 127px;
+    margin: 22px 0 22px 17px;
+}
+
+.counter-stars{
+    padding: 5px 0 0 17px;
+}
+
+.qaws{
+    padding: 15px 0 0 22px;
+    color: #8969FF;
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.settings{
+    display: flex;
+    justify-content: center;
 }

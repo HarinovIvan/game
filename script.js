@@ -54,3 +54,15 @@ const btn = document.querySelector('.no');
 btn.addEventListener('click', ()=> {
     elem.classList.add("hidden");
 })
+
+const links = document.querySelectorAll('a.btn-home');
+
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.body.classList.add('fade-out');
+        setTimeout(() => {
+          window.location = this.href;
+        }, 500); // Длительность должна совпадать с transition
+      });
+    });
